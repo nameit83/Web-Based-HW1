@@ -1,0 +1,88 @@
+body {
+    background-color: slategray ;
+    opacity: 50;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    display:flex;
+    background-color: black;
+    color: black;
+    }
+
+ div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    display: inline-block;  
+    margin: 0 160px;
+    outline-color: black;
+    outline-width: 4px;
+    background: skyblue;
+    border-radius: 8px;
+    width: 150px;
+    left: 50%;
+    margin-left: 75px;
+    text-align: center;
+    
+
+}
+
+div:first-child{
+    margin-left: 75px;
+}
+div.menu-items:hover{
+    background-color: rgb(35, 170, 91);
+}
+
+a:link{
+    animation: linear;
+}
+a:visited,a:link{
+    text-decoration: none;
+    color: black;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Montserrat','Lato','Oswald' sans-serif;
+    
+
+}
+
+h3.text-body{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+div.logo{
+    /* background-image:url("dotalogo.png"); */
+    display: inline-flex;
+    background-color: slategray;
+    background-size: 135px;
+    height: 145px;
+    width: 135px;
+    text-indent:-99999999999999999px;
+    margin-top: 0%;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.heading{
+    display:inline-block;
+    background:none ;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-size: 60px;
+    width :450px;
+    height: 145px;
+    margin-top: 0;
+   
+}
