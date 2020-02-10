@@ -18,12 +18,12 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     display: inline-block;  
-    margin: 0 160px;
+    margin: 0 170px;
     outline-color: black;
     outline-width: 4px;
     background: skyblue;
     border-radius: 8px;
-    width: 150px;
+    width: 170px;
     left: 50%;
     margin-left: 75px;
     text-align: center;
@@ -32,7 +32,7 @@ header{
 }
 
 div:first-child{
-    margin-left: 75px;
+    margin-left: 150px;
 }
 div.menu-items:hover{
     background-color: rgb(35, 170, 91);
@@ -85,4 +85,10 @@ div.logo{
     height: 145px;
     margin-top: 0;
    
+}
+footer{
+    background-color:rgb(36, 110, 67);
+    text-align: center;
+    display: inline-block;
+    
 }
